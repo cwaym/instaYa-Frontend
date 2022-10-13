@@ -1,0 +1,97 @@
+.main-login{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.login-container{
+    width: 800px;
+    height: 400px;
+    background: rgba( 255, 255, 255, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.30 );
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.login-container .left-side, .login-image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+.login-container .left-side  img{
+    width: 80%;
+    height: 80%;
+}
+
+.login-container .left-side{
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.login-container .right-side{
+    background-color: #FEFEFE;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.login-container .right-side .form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-container .right-side .input-field{
+    width: 50%;
+    border:0;
+    border-bottom:1px solid #2525253d;
+    transition: .5s;
+    margin: 12px 0px;
+}
+.login-container .right-side .input-field::placeholder{
+    color: #252525 ;
+}
+.login-container .right-side .input-field:focus{
+    border: none;
+    border-bottom: 2px solid #006174 ;
+    outline: none;
+}
+.login-container .right-side .input-field:focus::placeholder{
+    color: transparent;
+    transition: .5s;
+}
+
+.login-container .right-side .btn-login{
+    margin-top: 1.3em;
+    text-decoration: none;
+    padding: 5px 15px;
+    background: #006174;
+    color: #FFF;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.login-container .right-side .btn-register{
+    margin-top: 6px;
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: #006174;
+        text-decoration: dotted;
+}
+
+.login-container .right-side .text-succes, .text-danger{
+    margin-top: 1.5em;
+    font-size: 12px;
+}

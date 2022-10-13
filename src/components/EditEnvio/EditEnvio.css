@@ -1,0 +1,47 @@
+.image
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image .img
+{
+    width: 100%;
+    height: 200px;
+}
+
+.form-container-edit
+{
+    background: rgba( 255, 255, 255, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.30 );
+}
+
+.form-container-edit .send-info{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-edit-send
+{
+    margin: 2rem;
+}
+
+.form-container .btn-save
+{
+    border: none;
+    background-color: #3c9491;
+    color: #252525;
+}
+.form-container .btn-back
+{
+    background-color: #252525;
+    color: #EFEFEF;
+}
